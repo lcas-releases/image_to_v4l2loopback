@@ -1,0 +1,12 @@
+Source: ros-melodic-image-to-v4l2loopback
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cv-bridge, ros-melodic-image-transport, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-rostest, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: https://github.com/lucasw/image_to_v4l2loopback
+Standards-Version: 3.9.2
+
+Package: ros-melodic-image-to-v4l2loopback
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cv-bridge, ros-melodic-image-transport, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: Publish ros images into a virtual v4l2 video device
